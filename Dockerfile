@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:jessie
 MAINTAINER Yuanl <yuanl.lee@gail.com>
 
 RUN echo "deb http://apt.linode.com/ jessie main" > /etc/apt/sources.list.d/linode.list
